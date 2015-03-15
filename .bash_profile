@@ -3,7 +3,9 @@ parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-export PS1="\[\e[00;38m\]>\[\e[0m\] \[\e[00;31m\]\h\[\e[0m\]\[\e[00;38m\]:\[\e[0m\]\[\e[01;38m\]\W\[\e[0m\]\$(parse_git_branch) \[\e[00;37m\]\\$\[\e[0m\] "
+#export PS1="\h:\W \u\e[0;32m\]\$(parse_git_branch)\[\e[m\] $ "
+#export PS1="\[$GREEN\]\t\[$RED\]-\[$BLUE\]\u\[$YELLOW\]\[$YELLOW\]\w\[\033[m\]\[$MAGENTA\]\$(parse_git_branch)\[$WHITE\]\$ "
+export PS1="\h:\W \u\[\e[00;32m\]\$(parse_git_branch)\[\e[0m\] $ "
 
 
 # Bash TAB completion

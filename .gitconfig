@@ -1,0 +1,13 @@
+[commit]
+	template = ~/.gitmessage
+[core]
+	editor = nano
+[user]
+    name = giacomocusinato
+    email = giacomo.cusinato@outlook.com
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[alias]
+	st = status
