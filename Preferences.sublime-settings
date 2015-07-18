@@ -1,13 +1,15 @@
 {
-    // Appearance properties
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_face":  "Monaco",
-	"font_size": 13,
-
-    // Personal preferences
-	"auto_complete": true,
- 	"word_wrap": true,
-	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true
+  "auto_complete": true,
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+  "dictionary": "Packages/Italian.dic",
+  "font_face": "Monaco",
+  "font_size": 14,
+  "ignored_packages":
+  [
+  ],
+  "theme": "Spacegray.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true
 }

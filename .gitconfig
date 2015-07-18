@@ -11,3 +11,4 @@
 	helper = osxkeychain
 [alias]
 	st = status
+    co = checkout
